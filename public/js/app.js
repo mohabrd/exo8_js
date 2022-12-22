@@ -18,9 +18,18 @@
 
 // en js crée une variable de type array et insère des personnes de la classe ensuite à l'aide d'une boucle foreach, dit 'bonjour' + noms
 
-let array = ['Quentin','Bachir','Sebastien','Brandon','Charlotte','Denis','Yassine'];
+// let array = ['Quentin','Bachir','Sebastien','Brandon','Charlotte','Denis','Yassine'];
 
+
+// array.forEach(function(array){
+//     console.log('bonjour ' + array);
+// });
+
+// en js crée un array qui contient 5 éléments et affiche tous les éléments à l'aide d'une boucle forach
+
+let array = ['a','b','c','d','e'];
 
 array.forEach(function(array){
-    console.log('bonjour ' + array);
+    console.log(array);
+    
 });
